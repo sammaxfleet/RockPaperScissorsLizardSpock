@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- font awesome and google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <link rel="stylesheet" href="Assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 class="heading">
+        <img class="logo" src="Assets/rock paper scissors lizard spock.jpeg" alt="logo"> Rock, Paper, Scissors, Lizard, Spock. 
+    </h1>
+
+    <div class="game-area">
+<div class="controls-area"></div>
+<button date-type="rock" class ="btn btn--big btn--grey"></button>
+<i class="fa-regular fa-hand-back-fist"></i>
+<button date-type="paper" class ="btn btn--big btn--white"></button>
+<i class="fa-regular fa-hand"></i>
+<button date-type="scissors" class ="btn btn--big btn--blue"></button>
+<i class="fa-regular fa-hand-scissors"></i>
+<button date-type="lizard" class ="btn btn--big btn--green"></button>
+<i class="fa-regular fa-hand-lizard"></i>
+<button date-type="spock" class ="btn btn--big btn--beige"></button>
+<i class="fa-regular fa-hand-spock"></i>
+
+    </div>
+
+    <div class="question-area"></div>
+    <span id="operand1">0</span>
+    <span id="operator">x</span>
+    <span id="operand2">0</span>
+    <span>=</span>
+   <p class="answer game">Enter Answer:</p>
+   <input type="answer-box" type= "number">
+   
+
+    <div class="score-area">
+        <p class="scores">Wins <span id="score">0</span></p>
+        <p class="scores">Losses <span id="incorrect">0</span></p>
+    </div>
+<div> <button datatype="submitt"  class="btn btn--grey">Submitt Answer</button>
+</div>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
