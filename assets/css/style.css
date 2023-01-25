@@ -5,44 +5,58 @@ body {
     font-family: "SofiaSansCondensed", sans-serif;
     color: #444c61;
     text-align: center;
-}
 
-/*  Heading */
+}
+h2 { color: rgb(184, 11, 164);}
+
+
+/*  Heading & image */
 
 .heading {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
-.logo {
+.Image {
     height: 500px;
-    Margin: Auto;
+    display:inline; 
 }
+
 
 /* --------- Game layout */
 
 .game-area {
     background-color: #E6ECF0;
     box-sizing: border-box;
-    width: 85%;
+    width: 70%;
     height: 65vh;
     max-height: 450px;
     max-width: 830px;
     margin-left: auto;
     margin-right: auto;
-    padding: 1%;
+    padding: 2%;
 }
 
-.question-area {
-    width: 50%;
-    font-size: 2rem;
-    margin: auto;
-    padding: 50px 0;
+
+.selections {
+    width: 85%;
+    margin: 30px auto;
 }
 
-.question-area span {
-    padding: 0 15px;
-}
+.results-area {
+    font-size: 2.5rem;
+    margin-top: 5rem;
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .result-score {
+    margin-left: .1rem;
+    font-size: 2.5rem;
+    color:#444c61
+  }
+
+
 
 .score-area {
     margin: 5px auto;
@@ -50,10 +64,6 @@ body {
     font-size: 1.2rem;
 }
 
-.controls-area {
-    width: 85%;
-    margin: 30px auto;
-}
 
 #score {
     color: green;
@@ -65,23 +75,10 @@ body {
     font-weight: bold;
 }
 
-.answer-message {
-    display: none;
-    font-size: 1rem;
-}
-
-#answer-box {
-    border: none;
-    color: #445361;
-    display: inline-block;
-    height: 40px;
-    width: 80px;
-    font-size: 1.2rem;
-}
 
 .scores {
     display: inline-block;
-    padding: 25px;
+    padding: 40px;
 }
 
 /* --------- Buttons */
@@ -93,25 +90,30 @@ body {
     text-transform: uppercase;
     letter-spacing: 1.2px;
     color: white;
+    cursor: pointer;
+    transition: 100ms;
+    
 }
 
-.btn:focus {
-    outline: none;
+.btn:hover {
+transform: scale(1.2);
 }
 
-.btn--big {
+
+
+.btn-lg {
     padding-top: 10px;
     border-radius: 50%;
     background-color: white;
     border: 10px solid;
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 150px;
     font-size: 3.2rem;
     margin: 0 30px;
     transition: all 0.5s;
 }
 
-.btn--big::after{
+.btn-lg::after{
     content: attr(data-type);
     font-size: 1rem;
     color: #445361;
@@ -123,36 +125,53 @@ body {
     border-color: grey;
     color: grey;
 }
+.btn--grey:active,
+.btn--grey:hover {
+    background-color: darkgrey;
+    color: grey;
+}
 
 .btn--blue
  {
     border-color: rgb(0, 51, 255);
-    color: white;
+    color: blue;
+}
+.btn--blue:active,
+.btn--blue:hover {
+    background-color: darkblue;
+    color: blue;
 }
 
-.btn--white {
+.btn--orange {
     border-color: orange;
-    color: white;
+    color: orange;
 }
 
 .btn--orange:active,
 .btn--orange:hover {
     background-color: darkorange;
-    color: white;
+    color: orange;
 }
 
-.btn--beige {
-    border-color: beige;
-    color: beige;
-}
+.btn--red {
+    border-color: red;
+    color: red;}
 
+.btn--red:active,
+.btn--red:hover {
+    background-color: darkred;
+    color: red;
+}
 
 .btn--green {
     border-color: green;
     color: green;
 }
-
- 
+.btn--green:active,
+.btn--green:hover {
+    background-color: darkgreen;
+    color: green;
+}
 
 .btn--gray {
     margin-top: 25px;
@@ -165,11 +184,12 @@ body {
 /* --------- Media queries */
 
 @media (max-width: 414px) {
-    .controls-area {
+    .selections {
         width: 100%;
     }
+}
 
-    .btn--big {
+    .btn--lg {
         margin: 0 10px;
         padding: 5px;
         border: 5px solid;
@@ -178,31 +198,12 @@ body {
         font-size: 1.5rem;
     }
 
-    .btn--big::after {
+    .btn--lg::after {
         font-size: 0.6rem;
         left: -0.7rem;
     }
 
-    .question-area {
-        padding: 10% 0;
-        width: 100%;
-    }
 
-    .question-area span {
-        padding: 0;
-    }
-
-    .answer-message {
-        display: block;
-    }
-
-    #answer-box {
-        display: block;
-        margin: 0 auto;
-    }
-    .btn--gray {
-        margin-top: 0;
-    }
 
     .score-area {
         width: 100%;
@@ -217,27 +218,33 @@ body {
     .heading {
         font-size: 2rem;
     }
-}
+
 
 @media (max-width: 320px) {
     .game-area {
         height: 70vh;
     }
+}
 
-    .controls-area {
-        width: 75%;
-        margin: 10px auto;
+@media (max-width: 320px) {
+    .score-area {
+        height: 70vh;
     }
+
 
     .btn--big {
         margin: 10px 10px;
     }
-    .question-area {
-        padding: 10px 0;
-    }
+}
+
+@media only screen and (min-device-width: 480px){
+    .game-area
+}
+@media only screen and (min-device-width: 480px){
+    .score-area
 }
 
 /*  Icons */
 
 .game-area > i
-{font-size: 600%;}
+{font-size: 800%;}
