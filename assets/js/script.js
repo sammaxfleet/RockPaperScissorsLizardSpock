@@ -8,11 +8,13 @@ function playGame(userChoice)
 let choices = ['rock', 'paper', 'scissors', 'lizard', 'spock'];
 // randomly chosing for AI
 let computerChoice = choices[Math.floor(Math.random() * choices.length)];
-// variables to display results
+
+// Variables to display results
 let userScore = '';
 let AIScore = '';
 let resultText = '';
-// for tie
+
+// For a tie
 if (userChoice === computerChoice) {
     resultText = "It's a tie";
 }
@@ -49,4 +51,3 @@ else {
     }
 }
 document.getElementById('result').textContent = `you chose ${userChoice}. Computer Chose ${computerChoice}. ${resultText}`;
-} 

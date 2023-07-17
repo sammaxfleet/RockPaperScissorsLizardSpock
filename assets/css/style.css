@@ -29,7 +29,7 @@ h2 { color: rgb(184, 11, 164);}
 /* --------- Game layout */
 
 .game_area {
-    background-color: #E6ECF0;
+    background-color: #DDA0DD;
     width: 60%;
     max-height: 350px;
     max-width: 830px;
@@ -52,45 +52,11 @@ h2 { color: rgb(184, 11, 164);}
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .result-score {
+  .result_score {
     margin-left: .1rem;
     font-size: 2.5rem;
-    color:#444c61
+    color:#444c61;
   }
-
-
-.score_area {
-    margin: 5px auto;
-    width: 60%;
-    font-size: 1.2rem;
-}
-
-#score {
-    color: green;
-    font-weight: bold;
-}
-
-#incorrect {
-    color: red;
-    font-weight: bold;
-}
-
-
-.scores {
-    display: inline-block;
-    padding: 40px;
-}
-
-.score-area {
-    width: 100%;
-}
-
-.scores {
-    margin: 0.5em auto;
-    display: block;
-    padding: 5px;
-}
-
 
 
 .btn {
@@ -190,12 +156,6 @@ transform: scale(1.2);
 }
 
 
-@media (max-width: 414px) {
-    .selections {
-        width: 100%;
-    }
-}
-
     .btn--lg {
         margin: 0 10px;
         padding: 5px;
@@ -210,31 +170,20 @@ transform: scale(1.2);
         left: -0.7rem;
     }
 
-
-
-@media (max-width: 320px) {
-    .game-area {
-        height: 70vh;
-    }
-}
-
-@media (max-width: 320px) {
-    .score-area {
-        height: 70vh;
+    @media (max-width: 414px) {
+        .choices {
+            width: 100%;
+        }
     }
 
-    .btn--big {
-        margin: 10px 10px;
-    }
-}
+@media (max-width: 1087px) {
 
-@media only screen and (min-device-width: 480px)
-{
-    .game-area
-}
-@media only screen and (min-device-width: 480px){
-    .score-area
-}
+    .title { 
+        font-size: 1rem;
+        text-align: center;
+    }
+    
+
 
 /*  Icons */
 
