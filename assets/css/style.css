@@ -13,7 +13,7 @@ h2 { color: rgb(184, 11, 164);}
 
 /*  Heading & image */
 
-.heading {
+.title {
     text-align: center;
     font-size: 3rem;
 }
@@ -21,30 +21,31 @@ h2 { color: rgb(184, 11, 164);}
 .Image {
     height: 500px;
     display:inline; 
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 
 /* --------- Game layout */
 
-.game-area {
+.game_area {
     background-color: #E6ECF0;
-    box-sizing: border-box;
-    width: 70%;
-    height: 65vh;
-    max-height: 450px;
+    width: 60%;
+    max-height: 350px;
     max-width: 830px;
     margin-left: auto;
     margin-right: auto;
     padding: 2%;
+    margin-top: 50px;
 }
 
 
-.selections {
+.choices {
     width: 85%;
     margin: 30px auto;
 }
 
-.results-area {
+.results_area {
     font-size: 2.5rem;
     margin-top: 5rem;
     display: grid; 
@@ -58,13 +59,11 @@ h2 { color: rgb(184, 11, 164);}
   }
 
 
-
-.score-area {
+.score_area {
     margin: 5px auto;
     width: 60%;
     font-size: 1.2rem;
 }
-
 
 #score {
     color: green;
@@ -82,7 +81,7 @@ h2 { color: rgb(184, 11, 164);}
     padding: 40px;
 }
 
-/* --------- Buttons */
+
 
 .btn {
     width: 220px;
@@ -99,7 +98,6 @@ h2 { color: rgb(184, 11, 164);}
 .btn:hover {
 transform: scale(1.2);
 }
-
 
 
 .btn-lg {
@@ -182,8 +180,6 @@ transform: scale(1.2);
 }
 
 
-/* --------- Media queries */
-
 @media (max-width: 414px) {
     .selections {
         width: 100%;
@@ -203,7 +199,6 @@ transform: scale(1.2);
         font-size: 0.6rem;
         left: -0.7rem;
     }
-
 
 
     .score-area {
@@ -232,13 +227,13 @@ transform: scale(1.2);
         height: 70vh;
     }
 
-
     .btn--big {
         margin: 10px 10px;
     }
 }
 
-@media only screen and (min-device-width: 480px){
+@media only screen and (min-device-width: 480px)
+{
     .game-area
 }
 @media only screen and (min-device-width: 480px){
