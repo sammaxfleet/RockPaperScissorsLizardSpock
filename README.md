@@ -15,9 +15,10 @@ The game is good for all ages, so the specific target audience in particular can
 
 
 User Experience Design
-Colors Used.
 
-![Uploading Screenshot 2023-07-17 at 17.48.45.png…]()
+Colors Used.
+<img width="1440" alt="Screenshot 2023-07-17 at 17 51 23" src="https://github.com/sammaxfleet/RockPaperScissorsLizardSpock/assets/114914739/df5a54b2-0f14-4457-ad98-12ede9a03c10">
+
 
 # Background Color
 I went for a turquoise colour for the site to match the logic images arrows.
