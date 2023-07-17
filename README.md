@@ -1,16 +1,40 @@
-Read Me File.
-
-I essentially designed the site to create a brain game for the audience. 
-The game makes you think about different outcomes. Everyone knows rock, paper, scissors.
-But adding Lizard and Spock sparks some curiosity to the User. 
-
-I hope the game get's the User's thinking patterns going and competitive nature to beat the computer. 
-It is good for all ages, so the specific target audience in particular can be a family as it's an inviting, fun, and easy game to play. 
+# ROCK PAPER SCISSORS LIZARD SPOCK GAME JAVASCRIPT MODUEL 2.
 
 
+# Purpose Of the Game
+Rock, Paper, Scissors, Lizard, Spock is a brain game.
+The game presents to you four different outcomes with each choice. 
+2 win and 2 lose. 
+
+I've set up the game so it's the User vs the A.I competing against each other go for go. 
+The aim of the game is to get the User's thinking patterns going and competitive nature to beat the computer.
+The game is good for all ages, so the specific target audience in particular can be a family as it's an inviting, fun, and easy game to play. 
 
 
-The image breaks down the instructions for the game. It shows what the rules are, it's a really cool contrast with the blue and the green and catchy on the eye. 
+
+<img width="494" alt="Screenshot 2023-07-17 at 12 42 35" src="https://github.com/sammaxfleet/RockPaperScissorsLizardSpock/assets/114914739/6abd1bab-3c08-45bc-9060-20cd1a5e7adb">
+
+
+The Image breaks down the instructions for the game.
+The User is then able to scroll down.
+The Logic goes as follows.
+
+
+
+Rock - ## WINS against Scissors & Lizard but LOSES
+
+Paper - ## WINS against Rock & Spock but LOSES
+
+Scissors -## WINS against Paper & Lizard but LOSES
+
+Lizard - ## WINS against Paper & Spock but LOSES
+
+Spock - Beats Scissors & Spock but LOSES 
+
+
+
+
+It shows what the rules are, it's a really cool contrast with the blue and the green and catchy on the eye. 
 This section allows the User to understands the rules before they play the game, with the text beneath it clearly written so if they're confused by the images they know exactly what the icons for the game are. 
 
 The <h2> this is written in a pink colour- & is there to sell the game to the user. 
