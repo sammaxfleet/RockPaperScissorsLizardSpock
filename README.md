@@ -1,5 +1,8 @@
 # ROCK PAPER SCISSORS LIZARD SPOCK GAME JAVASCRIPT MODUEL 2.
 
+Responsive Image
+
+
 
 # Purpose Of the Game
 Rock, Paper, Scissors, Lizard, Spock is a brain game.
@@ -10,15 +13,28 @@ I've set up the game so it's the User vs the A.I competing against each other go
 The aim of the game is to get the User's thinking patterns going and competitive nature to beat the computer.
 The game is good for all ages, so the specific target audience in particular can be a family as it's an inviting, fun, and easy game to play. 
 
-# TRAINING IMAGE 
+
+User Experience Design
+Colors Used.
+
+![Uploading Screenshot 2023-07-17 at 17.48.45.png…]()
+
+# Background Color
+I went for a turquoise colour for the site to match the logic images arrows.
+I wanted it to give the user a peaceful experience as the game is already chalelning enough without it being too hectic as a background and to focus on the main feature which is the game as to why the background colour is more mute. 
+
+<img width="208" alt="Screenshot 2023-07-17 at 17 27 11" src="https://github.com/sammaxfleet/RockPaperScissorsLizardSpock/assets/114914739/fdc28ed8-a3e3-4a5a-9c76-be3be7f3bbdd">
+
+
+
+
+# Logic Image
 
 <img width="494" alt="Screenshot 2023-07-17 at 12 42 35" src="https://github.com/sammaxfleet/RockPaperScissorsLizardSpock/assets/114914739/6abd1bab-3c08-45bc-9060-20cd1a5e7adb">
 
 
 The Image breaks down the instructions for the game, it guides the user through the possibilities displaying arrows towards the 2 icons they Win against each.
 I chose an image with calm inviting colours & animated images to make the game feel a sense of invitation and warmth.
-
-The Logic goes as follows.
 
 # The Logic
 
@@ -33,11 +49,22 @@ Lizard -  WINS against Paper & Spock but LOSES against Scissors & Rock
 Spock - WINS against Scissors & Rock but LOSES against Lizard & Paper
 
 
+# TITLE 
+
+The title is coloured in a dark grey contrast to the pale turquoise background. Capitals are used for this title, along with large text so the User can see 
+straight away what the game is. 
+
+<img width="1099" alt="Screenshot 2023-07-17 at 16 30 33" src="https://github.com/sammaxfleet/RockPaperScissorsLizardSpock/assets/114914739/75acb349-483b-4017-8c93-00f8f7518922">
 
 
-The <h2> this is written in a pink colour- & is there to sell the game to the user. 
 
-IMG
+## H2
+Using a striking purple colour to add a bit of character to the page. 
+I decided to keep the writing minimal, for the page, with the main feature being the game.
+
+<img width="378" alt="Screenshot 2023-07-17 at 16 37 44" src="https://github.com/sammaxfleet/RockPaperScissorsLizardSpock/assets/114914739/3e4b04d2-1ba6-4578-84ea-09193af5f70b">
+
+
 
 
 The buttons Img
