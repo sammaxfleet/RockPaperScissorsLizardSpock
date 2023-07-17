@@ -16,7 +16,14 @@ let resultText = '';
 if (userChoice === computerChoice) {
     resultText = "It's a tie";
 }
-
+// User Wins conditions
+else if (
+(userChoice === 'rock' && (computerChoice === 'scissors' || computerChoice === 'lizard')) ||
+(userChoice === 'paper' && (computerChoice === 'rock' || computerChoice === 'spock')) ||
+(userChoice === 'scissors' && (computerChoice === 'paper' || computerChoice === 'lizard')) ||
+(userChoice === 'lizard' && (computerChoice === 'paper' || computerChoice === 'spock')) ||
+(userChoice === 'spock' && (computerChoice === 'rock' || computerChoice === 'scissors'))
+) 
 
 
 
