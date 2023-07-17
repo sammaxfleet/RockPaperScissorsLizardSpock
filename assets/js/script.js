@@ -25,5 +25,15 @@ else if (
 (userChoice === 'spock' && (computerChoice === 'rock' || computerChoice === 'scissors'))
 ) 
 
+// update results accordingly for user winner conditions
 
-
+{
+    resultText = "You Win!";
+    let currentResult = document.getElementById('userScore').value += '+ 1';
+    let userScored = eval(currentResult);
+    if (userScored > 9) {
+        resetGame('User');
+    } else {
+        document.getElementById('userScore').value = userScored;
+    }
+}
