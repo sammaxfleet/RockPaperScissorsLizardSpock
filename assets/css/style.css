@@ -2,9 +2,10 @@
 
 body {
     background-color: rgb(190, 220, 203);
-    font-family: "SofiaSansCondensed", sans-serif;
+    font-family: Courier, monospace;
     color: #444c61;
     text-align: center;
+    text-transform: uppercase;
 
 }
 h2 { color: rgb(184, 11, 164);}
