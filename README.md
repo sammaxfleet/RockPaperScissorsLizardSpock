@@ -2,7 +2,7 @@
 
 Responsive Image
 
-
+HAND WRITTEN WIREFRAME
 
 # Purpose Of the Game
 Rock, Paper, Scissors, Lizard, Spock is a brain game.
@@ -67,18 +67,27 @@ I decided to keep the writing minimal, for the page, with the main feature being
 
 
 
+# The Buttons
 
-The buttons Img
-
-The Buttons- The buttons display 5 different colours contrasting to each other .  The shape is an oval shape making it visible on the page with a pattern to the layout in the title. 
+The buttons display 5 different colours with 5 different images.
+The shape is an oval shape making it big an clear for the User.
+I've used vibrant colours, on each button, which are all contrasting to each other, so there's no confusion with colours that look a like.
 On the buttons as you hover over them they enlarge and get darker to give the User further understanding that they're about to click on the game.
-The buttons are bordered off in a grey area. (the Game area)
+The buttons are bordered off in a Plum colour area, (the Game area) to make it visual to where the user plays the game. 
 
-Imge 
+<img width="885" alt="Screenshot 2023-07-17 at 19 00 23" src="https://github.com/sammaxfleet/RockPaperScissorsLizardSpock/assets/114914739/9815c0b7-dd43-486e-8e8c-672af2a02268">
+
+
+COMPUTER SCORE VS USER SCORE
+
+
 
 You - signifies the score for the User
 
 Computer- signifies the computer score for the user 
+
+
+
 
 
 Testing:
@@ -89,6 +98,8 @@ Testing:
 The site was deployed to GitHub pages.
 
 The sites used for reference were.
+
+https://www.rapidtables.com/web/css/css-color.html#yellow
 
 https://www.geeksforgeeks.org/
 
