@@ -37,3 +37,16 @@ else if (
         document.getElementById('userScore').value = userScored;
     }
 }
+// update results accordingly for AI winner conditions
+else {
+    resultText = "You Lose!";
+    let currentResultAI = document.getElementById('AIScore').value += '+ 1';
+    let AIScored = eval(currentResultAI);
+    if (AIScored > 9) {
+        resetGame('AI');
+    } else {
+        document.getElementById('AIScore').value = AIScored;
+    }
+}
+document.getElementById('result').textContent = `you chose ${userChoice}. Computer Chose ${computerChoice}. ${resultText}`;
+} 
