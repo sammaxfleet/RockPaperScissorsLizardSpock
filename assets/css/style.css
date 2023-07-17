@@ -20,7 +20,7 @@ h2 { color: rgb(184, 11, 164);}
 
 .Image {
     height: 500px;
-    display:inline; 
+    display: inline; 
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -79,6 +79,16 @@ h2 { color: rgb(184, 11, 164);}
 .scores {
     display: inline-block;
     padding: 40px;
+}
+
+.score-area {
+    width: 100%;
+}
+
+.scores {
+    margin: 0.5em auto;
+    display: block;
+    padding: 5px;
 }
 
 
@@ -201,20 +211,6 @@ transform: scale(1.2);
     }
 
 
-    .score-area {
-        width: 100%;
-    }
-
-    .scores {
-        margin: 0.5em auto;
-        display: block;
-        padding: 5px;
-    }
-
-    .heading {
-        font-size: 2rem;
-    }
-
 
 @media (max-width: 320px) {
     .game-area {
@@ -244,3 +240,17 @@ transform: scale(1.2);
 
 .game-area > i
 {font-size: 800%;}
+
+input {
+    width: 50px;
+    background: rgb(190, 220, 203);
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+#result {
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 30px;
+}

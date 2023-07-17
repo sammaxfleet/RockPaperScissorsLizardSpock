@@ -37,7 +37,7 @@ else if (
         document.getElementById('userScore').value = userScored;
     }
 }
-// update results accordingly for AI winner conditions
+// update results according to AI winner conditions
 else {
     resultText = "You Lose!";
     let currentResultAI = document.getElementById('AIScore').value += '+ 1';
