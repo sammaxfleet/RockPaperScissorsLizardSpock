@@ -10,32 +10,30 @@ I've set up the game so it's the User vs the A.I competing against each other go
 The aim of the game is to get the User's thinking patterns going and competitive nature to beat the computer.
 The game is good for all ages, so the specific target audience in particular can be a family as it's an inviting, fun, and easy game to play. 
 
-
+# TRAINING IMAGE 
 
 <img width="494" alt="Screenshot 2023-07-17 at 12 42 35" src="https://github.com/sammaxfleet/RockPaperScissorsLizardSpock/assets/114914739/6abd1bab-3c08-45bc-9060-20cd1a5e7adb">
 
 
-The Image breaks down the instructions for the game.
-The User is then able to scroll down.
+The Image breaks down the instructions for the game, it guides the user through the possibilities displaying arrows towards the 2 icons they Win against each.
+I chose an image with calm inviting colours & animated images to make the game feel a sense of invitation and warmth.
+
 The Logic goes as follows.
 
+# The Logic
+
+Rock -  WINS against Scissors & Lizard but LOSES against Paper & Spock
+
+Paper -  WINS  against Rock & Spock but LOSES against Scissors & Lizard
+
+Scissors - WINS against Paper & Lizard but LOSES against Rock & Spock 
+
+Lizard -  WINS against Paper & Spock but LOSES against Scissors & Rock
+
+Spock - WINS against Scissors & Rock but LOSES against Lizard & Paper
 
 
-Rock - ## WINS against Scissors & Lizard but LOSES
 
-Paper - ## WINS against Rock & Spock but LOSES
-
-Scissors -## WINS against Paper & Lizard but LOSES
-
-Lizard - ## WINS against Paper & Spock but LOSES
-
-Spock - Beats Scissors & Spock but LOSES 
-
-
-
-
-It shows what the rules are, it's a really cool contrast with the blue and the green and catchy on the eye. 
-This section allows the User to understands the rules before they play the game, with the text beneath it clearly written so if they're confused by the images they know exactly what the icons for the game are. 
 
 The <h2> this is written in a pink colour- & is there to sell the game to the user. 
 
