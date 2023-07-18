@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>RPSLSGAME</title>
 </head>
 
@@ -26,11 +26,11 @@
 
 <!-- Namn - remove the data-selection attribute and add onlclick -->
 
-    <button class="btn btn-lg btn--grey" data-selection="rock" > <i class="fa-regular fa-hand-back-fist"></i></button>
-    <button class="btn btn-lg btn--blue" data-selection="paper" ><i class="fa-regular fa-hand"></i></button>
-    <button class="btn btn-lg btn--orange" data-selection="scissors" ><i class="fa-regular fa-hand-scissors"></i></button>
-    <button class="btn btn-lg btn--green" data-selection="lizard" ><i class="fa-regular fa-hand-lizard"></i></button>
-    <button class="btn btn-lg btn--red" data-selection="spock" ><i class="fa-regular fa-hand-spock"></i></button>
+    <button class="btn btn-lg btn--grey" onclick="playGame('rock')" > <i class="fa-regular fa-hand-back-fist"></i></button>
+    <button class="btn btn-lg btn--blue" onclick="playGame('paper')" ><i class="fa-regular fa-hand"></i></button>
+    <button class="btn btn-lg btn--orange" onclick="playGame('scissor')" ><i class="fa-regular fa-hand-scissors"></i></button>
+    <button class="btn btn-lg btn--green" onclick="playGame('lizard')" ><i class="fa-regular fa-hand-lizard"></i></button>
+    <button class="btn btn-lg btn--red" onclick="playGame('spock')" ><i class="fa-regular fa-hand-spock"></i></button>
 </div>
 </div>
 <!--Namn - add this so that the game displays winner per iteration -->
@@ -51,15 +51,9 @@
 
   </div>
 
-<!-- <div class="score-area"> 
-<p class="scores">Correct Answers <span id="score">0</span></p>
-<p class="scores">Incorrect Answers <span id="incorrect">0</span></p>
 
-</div>
- <div class="result-selection winner"></div>
-    <div class="result-selection"> </div>  -->
+<script src="./assets/js/script.js"></script>
 
-<script src="assets/js/script.js"></script>
 </body>
 
 </html>

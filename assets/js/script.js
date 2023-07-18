@@ -1,12 +1,14 @@
-// function to reset the game and display the winner
+
+// function to remove body elements and display the winner
 function resetGame(winner) {
-    document.body.innerHTML = `the ${winner} has won.`;
+    document.body.innerHTML = `the ${winner} has won.<br><button><a href="/">Back to Game</a></button>`;
+
 }
 // Function to play the game
-function playGame(userChoice)
+function playGame(userChoice) {
 // choices available
 let choices = ['rock', 'paper', 'scissors', 'lizard', 'spock'];
-// randomly chosing for AI
+// randomly chosing for AI using random() and floor() to round off the number to nearest integer
 let computerChoice = choices[Math.floor(Math.random() * choices.length)];
 
 // Variables to display results
@@ -51,3 +53,4 @@ else {
     }
 }
 document.getElementById('result').textContent = `you chose ${userChoice}. Computer Chose ${computerChoice}. ${resultText}`;
+} 
