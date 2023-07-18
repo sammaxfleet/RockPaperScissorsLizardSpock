@@ -28,7 +28,6 @@ I wanted it to give the user a peaceful experience as the game is already chalel
 
 
 
-
 # Logic Image
 
 <img width="494" alt="Screenshot 2023-07-17 at 12 42 35" src="https://github.com/sammaxfleet/RockPaperScissorsLizardSpock/assets/114914739/6abd1bab-3c08-45bc-9060-20cd1a5e7adb">
@@ -78,14 +77,20 @@ The buttons are bordered off in a Plum colour area, (the Game area) to make it v
 <img width="885" alt="Screenshot 2023-07-17 at 19 00 23" src="https://github.com/sammaxfleet/RockPaperScissorsLizardSpock/assets/114914739/9815c0b7-dd43-486e-8e8c-672af2a02268">
 
 
-COMPUTER SCORE VS USER SCORE
+# COMPUTER SCORE VS USER SCORE
+
+The game counts the scores for the first winner to a score of 10, it's User vs AI. 
+I chose 10 so it feels a bit competitive, this logic can obviously be changed to any number in the Javascript code.
+It also tells you what beats what as you click on an icon. 
+
+
+<img width="1172" alt="Screenshot 2023-07-18 at 16 00 39" src="https://github.com/sammaxfleet/RockPaperScissorsLizardSpock/assets/114914739/a61eaa42-4478-4b77-a6f5-c3b6b5c012ed">
 
 
 
 You - signifies the score for the User
 
 Computer- signifies the computer score for the user 
-
 
 
 
@@ -112,6 +117,10 @@ https://fontawesome.com/
 https://fonts.google.com/about
 
 https://codegolf.stackexchange.com/questions/195083/cheat-at-rock-paper-scissors-lizard-spock (site for image)
+
+Orginally I used this repository to understand the logic.
+
+https://github.com/WebDevSimplified/Rock-Paper-Scissors-In-JavaScript/blob/master/script.js
 
 
 
