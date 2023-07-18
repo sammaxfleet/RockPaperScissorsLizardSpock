@@ -62,7 +62,8 @@ straight away what the game is.
 Using a striking purple colour to add a bit of character to the page. 
 I decided to keep the writing minimal, for the page, with the main feature being the game.
 
-<img width="378" alt="Screenshot 2023-07-17 at 16 37 44" src="https://github.com/sammaxfleet/RockPaperScissorsLizardSpock/assets/114914739/3e4b04d2-1ba6-4578-84ea-09193af5f70b">
+<img width="1026" alt="Screenshot 2023-07-18 at 16 10 40" src="https://github.com/sammaxfleet/RockPaperScissorsLizardSpock/assets/114914739/78c68b6e-fbb7-401a-bf85-6977a010844d">
+
 
 
 
@@ -83,22 +84,29 @@ The game counts the scores for the first winner to a score of 10, it's User vs A
 I chose 10 so it feels a bit competitive, this logic can obviously be changed to any number in the Javascript code.
 It also tells you what beats what as you click on an icon. 
 
-
-<img width="1172" alt="Screenshot 2023-07-18 at 16 00 39" src="https://github.com/sammaxfleet/RockPaperScissorsLizardSpock/assets/114914739/a61eaa42-4478-4b77-a6f5-c3b6b5c012ed">
-
-
-
 You - signifies the score for the User
 
 Computer- signifies the computer score for the user 
 
+<img width="1172" alt="Screenshot 2023-07-18 at 16 00 39" src="https://github.com/sammaxfleet/RockPaperScissorsLizardSpock/assets/114914739/a61eaa42-4478-4b77-a6f5-c3b6b5c012ed">
+
+
+# Javascript Logic -
 
 
 
-Testing:
 
 
 
+
+
+# Testing
+
+
+
+
+
+# Credits
 
 The site was deployed to GitHub pages.
 
