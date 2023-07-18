@@ -1,8 +1,30 @@
-# ROCK PAPER SCISSORS LIZARD SPOCK GAME JAVASCRIPT MODUEL 2.
+# ROCK PAPER SCISSORS LIZARD SPOCK GAME JAVASCRIPT MODDULE 2.
 
-Responsive Image
+# Responsive Image
 
-HAND WRITTEN WIREFRAME
+# HAND WRITTEN WIREFRAME
+
+
+# Table Of CONTENTS
+
+- [ROCK PAPER SCISSORS LIZARD SPOCK GAME JAVASCRIPT MODDULE 2.](#rock-paper-scissors-lizard-spock-game-javascript-moddule-2)
+- [Responsive Image](#responsive-image)
+- [HAND WRITTEN WIREFRAME](#hand-written-wireframe)
+- [Purpose Of the Game](#purpose-of-the-game)
+- [Background Color](#background-color)
+- [Logic Image](#logic-image)
+- [The Logic](#the-logic)
+- [TITLE](#title)
+  * [H2](#h2)
+- [The Buttons](#the-buttons)
+- [COMPUTER SCORE VS USER SCORE](#computer-score-vs-user-score)
+- [Javascript Logic -](#javascript-logic--)
+- [Testing](#testing)
+- [Credits](#credits)
+
+
+
+
 
 # Purpose Of the Game
 Rock, Paper, Scissors, Lizard, Spock is a brain game.
