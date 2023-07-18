@@ -31,8 +31,6 @@ h2 { color: rgb(184, 11, 164);}
 .game_area {
     background-color: #DDA0DD;
     width: 60%;
-    max-height: 350px;
-    max-width: 830px;
     margin-left: auto;
     margin-right: auto;
     padding: 2%;
@@ -176,14 +174,33 @@ transform: scale(1.2);
         }
     }
 
-@media (max-width: 1087px) {
+    @media (max-width: 414px){
+        .Image {
+            height: 200px;
+            display: inline; 
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
 
-    .title { 
+    }
+
+    @media (max-width: 1087px) {
+
+    .title, .results_area, 
+    
+    { 
         font-size: 1rem;
         text-align: center;
     }
-    
-}
+    .game_area
+
+    { 
+
+    }
+    }
+
+
+
 
 /*  Icons */
 
