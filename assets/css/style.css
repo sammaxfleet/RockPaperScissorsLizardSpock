@@ -19,7 +19,7 @@ h2 { color: rgb(184, 11, 164);}
 }
 
 .Image {
-    height: 500px;
+    height: 400px;
     display: inline; 
     margin-top: 50px;
     margin-bottom: 50px;
@@ -54,6 +54,7 @@ h2 { color: rgb(184, 11, 164);}
     margin-left: .1rem;
     font-size: 2.5rem;
     color:#444c61;
+    margin-bottom: 30px;
   }
 
 
@@ -168,12 +169,15 @@ transform: scale(1.2);
         left: -0.7rem;
     }
 
+
+    Media Queries
+
+
     @media (max-width: 414px) {
         .choices {
             width: 100%;
-        }
+        } 
     }
-
     @media (max-width: 414px){
         .Image {
             height: 200px;
@@ -183,26 +187,16 @@ transform: scale(1.2);
         }
 
     }
-
+    
     @media (max-width: 1087px) {
 
-    .title, .results_area, 
-    
-    { 
+    .title  { 
         font-size: 1rem;
         text-align: center;
     }
-    .game_area
-
-    { 
-
-    }
-    }
+}
 
 
-
-
-/*  Icons */
 
 .game-area > i
 {font-size: 800%;}
@@ -219,4 +213,12 @@ input {
     text-align: center;
     font-size: 2.5rem;
     margin-top: 30px;
+    font-family: Courier, monospace;
+    
+}
+
+.return_btn {
+    background-color: #DDA0DD;
+    font-family: Courier, monospace;
+
 }
