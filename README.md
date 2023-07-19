@@ -1,8 +1,36 @@
-# ROCK PAPER SCISSORS LIZARD SPOCK GAME JAVASCRIPT MODUEL 2.
+# ROCK PAPER SCISSORS LIZARD SPOCK GAME JAVASCRIPT MODDULE 2.
 
-Responsive Image
+# Responsive Image
 
-HAND WRITTEN WIREFRAME
+
+# HAND WRITTEN WIREFRAMES
+
+Web Wireframes
+![IMG_1244](https://github.com/sammaxfleet/RockPaperScissorsLizardSpock/assets/114914739/8ff02344-bfad-4f5d-82c7-af585475d8ce)
+
+Mobile/Tablet Wireframe 
+![IMG_1242](https://github.com/sammaxfleet/RockPaperScissorsLizardSpock/assets/114914739/daeb721f-eb34-42b2-865e-a0748663b574)![IMG_1244]
+
+
+# Table Of CONTENTS
+
+- [ROCK PAPER SCISSORS LIZARD SPOCK GAME JAVASCRIPT MODDULE 2.](#rock-paper-scissors-lizard-spock-game-javascript-moddule-2)
+- [Responsive Image](#responsive-image)
+- [HAND WRITTEN WIREFRAME](#hand-written-wireframe)
+- [Purpose Of the Game](#purpose-of-the-game)
+- [Background Color](#background-color)
+- [Logic Image](#logic-image)
+- [The Logic](#the-logic)
+- [TITLE](#title)
+  * [H2](#h2)
+- [The Buttons](#the-buttons)
+- [COMPUTER SCORE VS USER SCORE](#computer-score-vs-user-score)
+- [Javascript Logic -](#javascript-logic--)
+- [Testing](#testing)
+- [Credits](#credits)
+
+
+
 
 # Purpose Of the Game
 Rock, Paper, Scissors, Lizard, Spock is a brain game.
@@ -25,7 +53,6 @@ I went for a turquoise colour for the site to match the logic images arrows.
 I wanted it to give the user a peaceful experience as the game is already chalelning enough without it being too hectic as a background and to focus on the main feature which is the game as to why the background colour is more mute. 
 
 <img width="208" alt="Screenshot 2023-07-17 at 17 27 11" src="https://github.com/sammaxfleet/RockPaperScissorsLizardSpock/assets/114914739/fdc28ed8-a3e3-4a5a-9c76-be3be7f3bbdd">
-
 
 
 
@@ -63,7 +90,8 @@ straight away what the game is.
 Using a striking purple colour to add a bit of character to the page. 
 I decided to keep the writing minimal, for the page, with the main feature being the game.
 
-<img width="378" alt="Screenshot 2023-07-17 at 16 37 44" src="https://github.com/sammaxfleet/RockPaperScissorsLizardSpock/assets/114914739/3e4b04d2-1ba6-4578-84ea-09193af5f70b">
+<img width="1026" alt="Screenshot 2023-07-18 at 16 10 40" src="https://github.com/sammaxfleet/RockPaperScissorsLizardSpock/assets/114914739/78c68b6e-fbb7-401a-bf85-6977a010844d">
+
 
 
 
@@ -78,22 +106,35 @@ The buttons are bordered off in a Plum colour area, (the Game area) to make it v
 <img width="885" alt="Screenshot 2023-07-17 at 19 00 23" src="https://github.com/sammaxfleet/RockPaperScissorsLizardSpock/assets/114914739/9815c0b7-dd43-486e-8e8c-672af2a02268">
 
 
-COMPUTER SCORE VS USER SCORE
+# COMPUTER SCORE VS USER SCORE
 
-
+The game counts the scores for the first winner to a score of 10, it's User vs AI. 
+I chose 10 so it feels a bit competitive, this logic can obviously be changed to any number in the Javascript code.
+It also tells you what beats what as you click on an icon. 
 
 You - signifies the score for the User
 
 Computer- signifies the computer score for the user 
 
+<img width="1172" alt="Screenshot 2023-07-18 at 16 00 39" src="https://github.com/sammaxfleet/RockPaperScissorsLizardSpock/assets/114914739/a61eaa42-4478-4b77-a6f5-c3b6b5c012ed">
+
+
+# Javascript Logic -
 
 
 
 
-Testing:
 
 
 
+
+# Testing
+
+
+
+
+
+# Credits
 
 The site was deployed to GitHub pages.
 
@@ -112,6 +153,10 @@ https://fontawesome.com/
 https://fonts.google.com/about
 
 https://codegolf.stackexchange.com/questions/195083/cheat-at-rock-paper-scissors-lizard-spock (site for image)
+
+Orginally I used this repository to understand the logic.
+
+https://github.com/WebDevSimplified/Rock-Paper-Scissors-In-JavaScript/blob/master/script.js
 
 
 
