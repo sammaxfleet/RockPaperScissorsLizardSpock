@@ -1,8 +1,15 @@
-# ROCK PAPER SCISSORS LIZARD SPOCK GAME JAVASCRIPT MODDULE 2.
+![IMG_1244](https://github.com/sammaxfleet/RockPaperScissorsLizardSpock/assets/114914739/8ff02344-bfad-4f5d-82c7-af585475d8ce)# ROCK PAPER SCISSORS LIZARD SPOCK GAME JAVASCRIPT MODDULE 2.
 
 # Responsive Image
 
-# HAND WRITTEN WIREFRAME
+
+# HAND WRITTEN WIREFRAMES
+
+Web Wireframes
+![IMG_1242](https://github.com/sammaxfleet/RockPaperScissorsLizardSpock/assets/114914739/daeb721f-eb34-42b2-865e-a0748663b574)![IMG_1244](https://github.com/sammaxfleet/RockPaperScissorsLizardSpock/assets/114914739/44c32cf4-6665-4ab9-919f-ea36e7cf05fd)
+
+Mobile/Tablet Wireframe 
+
 
 
 # Table Of CONTENTS
@@ -21,7 +28,6 @@
 - [Javascript Logic -](#javascript-logic--)
 - [Testing](#testing)
 - [Credits](#credits)
-
 
 
 
