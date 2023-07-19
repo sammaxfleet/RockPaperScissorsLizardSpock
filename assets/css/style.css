@@ -251,8 +251,13 @@ Media Queries @media (max-width: 414px) {
     }
 
     }
-
-
+    @media (max-width: 603px) {
+        .choices {
+            width: 85%;
+            margin: 30px auto;
+        }
+    
+        }
 
 .game-area > i {
   font-size: 800%;
