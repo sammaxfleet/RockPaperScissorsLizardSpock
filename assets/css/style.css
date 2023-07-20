@@ -54,14 +54,10 @@ h2 {
 }
 
 .btn {
-  height: 300px;
-  width: 300px;
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1.2px;
-  color: white;
   cursor: pointer;
-  transition: 100ms;
 }
 
 .btn:hover {
@@ -161,7 +157,7 @@ h2 {
   left: -0.7rem;
 }
 
-Media Queries @media (max-width: 414px) {
+@media (max-width: 414px) {
   .choices {
     width: 100%;
   }
@@ -258,7 +254,12 @@ Media Queries @media (max-width: 414px) {
         }
     
         }
-
+        @media (max-width: 603px) {
+            .btn-lg {
+                margin: 10px;
+            }
+        
+            }
 .game-area > i {
   font-size: 800%;
 }
@@ -273,7 +274,7 @@ input {
 #result {
   width: 100%;
   text-align: center;
-  font-size: 1 rem;
+  font-size: 15px;
   margin-top: 10px;
   font-family: Courier, monospace;
 }
