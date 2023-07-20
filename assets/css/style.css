@@ -1,4 +1,4 @@
-
+/* Page features before game area */
 
 body {
   background-color: rgb(190, 220, 203);
@@ -11,7 +11,6 @@ h2 {
   color: rgb(184, 11, 164);
 }
 
-/*  Title & image */
 
 .title {
   text-align: center;
@@ -28,6 +27,37 @@ h2 {
 
 /* Game layout */
 
+.results_area {
+    font-size: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .result_score {
+    margin-left: 0.1rem;
+    font-size: 2rem;
+    color: #444c61;
+    margin-bottom: 5px;
+  }
+  input {
+    width: 50px;
+    background: rgb(190, 220, 203);
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+  #result {
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+    font-family: Courier, monospace;
+  }
+  
+  .return_btn {
+    background-color: #dda0dd;
+    font-family: Courier, monospace;
+  }
 .game-area > i {
     font-size: 800%;
   }
@@ -47,37 +77,6 @@ h2 {
   margin: 30px auto;
 }
 
-.results_area {
-  font-size: 2rem;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.result_score {
-  margin-left: 0.1rem;
-  font-size: 2rem;
-  color: #444c61;
-  margin-bottom: 5px;
-}
-input {
-    width: 50px;
-    background: rgb(190, 220, 203);
-    border: 0;
-    margin: 0;
-    padding: 0;
-  }
-  #result {
-    width: 100%;
-    text-align: center;
-    font-size: 15px;
-    margin-top: 10px;
-    font-family: Courier, monospace;
-  }
-  
-  .return_btn {
-    background-color: #dda0dd;
-    font-family: Courier, monospace;
-  }
 /*  Buttons */
 
 .btn {

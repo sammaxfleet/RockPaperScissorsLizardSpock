@@ -32,6 +32,7 @@ function playGame(userChoice) {
     // update results accordingly for user winner conditions
 
     resultText = "You Win!";
+    /*jslint evil: true */
     let currentResult = (document.getElementById("userScore").value += "+ 1");
     let userScored = (new Function('return '+currentResult))();
  
@@ -44,6 +45,7 @@ function playGame(userChoice) {
   // update results according to AI winner conditions
   else {
     resultText = "You Lose!";
+    /*jslint evil: true */
     let currentResultAI = (document.getElementById("AIScore").value += "+ 1");
     let AIScored = (new Function('return '+currentResultAI))();
     if (AIScored > 9) {
