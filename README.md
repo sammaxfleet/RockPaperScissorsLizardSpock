@@ -1,6 +1,18 @@
 # ROCK PAPER SCISSORS LIZARD SPOCK GAME JAVASCRIPT MODDULE 2.
 
+# Things worked on since the first submitt.
+
+ - Javascript completly rewritten
+ - Game functioning
+ - More often Commits
+ - Html & CSS finissed & more customised. 
+ - Read Me Completed
+ - Media Queries 
+
 # Responsive Image
+The game is repsponsive on all platforms mobile, tablet & laptop.
+
+<img width="996" alt="Screenshot 2023-07-20 at 18 01 17" src="https://github.com/sammaxfleet/RockPaperScissorsLizardSpock/assets/114914739/2e92e5de-7900-4c51-899e-353df1b1cc34">
 
 
 # HAND WRITTEN WIREFRAMES
@@ -15,8 +27,10 @@ Mobile/Tablet Wireframe
 # Table Of CONTENTS
 
 - [ROCK PAPER SCISSORS LIZARD SPOCK GAME JAVASCRIPT MODDULE 2.](#rock-paper-scissors-lizard-spock-game-javascript-moddule-2)
+- [Things worked on since the first submitt.](#things-worked-on-since-the-first-submitt)
 - [Responsive Image](#responsive-image)
-- [HAND WRITTEN WIREFRAME](#hand-written-wireframe)
+- [HAND WRITTEN WIREFRAMES](#hand-written-wireframes)
+- [Table Of CONTENTS](#table-of-contents)
 - [Purpose Of the Game](#purpose-of-the-game)
 - [Background Color](#background-color)
 - [Logic Image](#logic-image)
@@ -27,8 +41,8 @@ Mobile/Tablet Wireframe
 - [COMPUTER SCORE VS USER SCORE](#computer-score-vs-user-score)
 - [Javascript Logic -](#javascript-logic--)
 - [Testing](#testing)
+- [Deployment](#deployment)
 - [Credits](#credits)
-
 
 
 
@@ -130,7 +144,15 @@ Computer- signifies the computer score for the user
 
 # Testing
 
+https://ui.dev/amiresponsive
 
+https://jshint.com/
+
+<img width="1240" alt="Screenshot 2023-07-20 at 16 00 49" src="https://github.com/sammaxfleet/RockPaperScissorsLizardSpock/assets/114914739/161f591c-b1cc-4caa-a174-5132975e3ee4">
+
+
+
+# Deployment 
 
 
 
