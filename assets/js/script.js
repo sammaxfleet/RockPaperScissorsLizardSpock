@@ -33,7 +33,8 @@ function playGame(userChoice) {
 
     resultText = "You Win!";
     let currentResult = (document.getElementById("userScore").value += "+ 1");
-    let userScored = eval(currentResult);
+    let userScored = (new Function('return '+currentResult))();
+ 
     if (userScored > 9) {
       resetGame("User");
     } else {
@@ -44,7 +45,7 @@ function playGame(userChoice) {
   else {
     resultText = "You Lose!";
     let currentResultAI = (document.getElementById("AIScore").value += "+ 1");
-    let AIScored = eval(currentResultAI);
+    let AIScored = (new Function('return '+currentResultAI))();
     if (AIScored > 9) {
       resetGame("AI");
     } else {

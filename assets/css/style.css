@@ -1,3 +1,5 @@
+
+
 body {
   background-color: rgb(190, 220, 203);
   font-family: Courier, monospace;
@@ -9,21 +11,26 @@ h2 {
   color: rgb(184, 11, 164);
 }
 
-/*  Heading & image */
+/*  Title & image */
 
 .title {
   text-align: center;
   font-size: 3rem;
+  
 }
 
 .Image {
   height: 400px;
   display: inline;
   margin-top: 0px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
-/* --------- Game layout */
+/* Game layout */
+
+.game-area > i {
+    font-size: 800%;
+  }
 
 .game_area {
   background-color: #dda0dd;
@@ -50,8 +57,28 @@ h2 {
   margin-left: 0.1rem;
   font-size: 2rem;
   color: #444c61;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
+input {
+    width: 50px;
+    background: rgb(190, 220, 203);
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+  #result {
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+    font-family: Courier, monospace;
+  }
+  
+  .return_btn {
+    background-color: #dda0dd;
+    font-family: Courier, monospace;
+  }
+/*  Buttons */
 
 .btn {
   font-family: "Raleway", sans-serif;
@@ -157,6 +184,8 @@ h2 {
   left: -0.7rem;
 }
 
+/*  Media Queries */
+
 @media (max-width: 414px) {
   .choices {
     width: 100%;
@@ -171,8 +200,6 @@ h2 {
     margin-bottom: 10px;
   }
 }
-
-
 
 @media (max-width: 1087px) {
   .title {
@@ -229,6 +256,7 @@ h2 {
       width: 80%;
     }
 }
+
     @media (max-width: 750px) {
         .game_area  {
           width: 100%;
@@ -254,32 +282,12 @@ h2 {
         }
     
         }
-        @media (max-width: 603px) {
-            .btn-lg {
-                margin: 10px;
-            }
+    @media (max-width: 603px) {
+        .btn-lg {
+            margin: 10px;
+        }
         
-            }
-.game-area > i {
-  font-size: 800%;
-}
+        }
 
-input {
-  width: 50px;
-  background: rgb(190, 220, 203);
-  border: 0;
-  margin: 0;
-  padding: 0;
-}
-#result {
-  width: 100%;
-  text-align: center;
-  font-size: 15px;
-  margin-top: 10px;
-  font-family: Courier, monospace;
-}
 
-.return_btn {
-  background-color: #dda0dd;
-  font-family: Courier, monospace;
-}
+
