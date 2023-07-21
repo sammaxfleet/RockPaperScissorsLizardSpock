@@ -112,12 +112,20 @@ I decided to keep the writing minimal, for the page, with the main feature being
 # The Buttons
 
 The buttons display 5 different colours with 5 different images.
-The shape is an oval shape making it big an clear for the User.
-I've used vibrant colours, on each button, which are all contrasting to each other, so there's no confusion with colours that look a like.
+They have a different layout for Mobile, Tablet & Laptop.
+
+
+The shape is an circle shape making it big and clear for the User.
+I've used loud vibrant colours  on each button  which are all contrasting to each other. 
 On the buttons as you hover over them they enlarge and get darker to give the User further understanding that they're about to click on the game.
-The buttons are bordered off in a Plum colour area, (the Game area) to make it visual to where the user plays the game. 
+The buttons are bordered off in a Plum colour area, (the Game area) to make it visual to where the user plays the game & again contrasting to the bold button colours. 
+
+<img width="250" alt="Screenshot 2023-07-21 at 10 19 30" src="https://github.com/sammaxfleet/RockPaperScissorsLizardSpock/assets/114914739/e6014f9b-ec33-4075-927c-2318fe9e1009">
 
 <img width="885" alt="Screenshot 2023-07-17 at 19 00 23" src="https://github.com/sammaxfleet/RockPaperScissorsLizardSpock/assets/114914739/9815c0b7-dd43-486e-8e8c-672af2a02268">
+
+<img width="526" alt="Screenshot 2023-07-21 at 10 19 42" src="https://github.com/sammaxfleet/RockPaperScissorsLizardSpock/assets/114914739/6159e153-8daf-447e-a3c1-129659acdf89">
+
 
 
 # COMPUTER SCORE VS USER SCORE
@@ -133,16 +141,11 @@ Computer- signifies the computer score for the user
 <img width="1172" alt="Screenshot 2023-07-18 at 16 00 39" src="https://github.com/sammaxfleet/RockPaperScissorsLizardSpock/assets/114914739/a61eaa42-4478-4b77-a6f5-c3b6b5c012ed">
 
 
-# Javascript Logic -
-
-
-
-
-
-
 
 
 # Testing
+
+Html - 
 
 https://ui.dev/amiresponsive
 
