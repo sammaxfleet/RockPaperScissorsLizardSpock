@@ -1,6 +1,8 @@
 # ROCK PAPER SCISSORS LIZARD SPOCK GAME JAVASCRIPT MODULE 2.
 
-# GitHub Link - https://sammaxfleet.github.io/RockPaperScissorsLizardSpock/
+# GitHub Repo - https://github.com/sammaxfleet/RockPaperScissorsLizardSpock
+
+# Deployed link https://sammaxfleet.github.io/RockPaperScissorsLizardSpock/
 
 # Things worked on since the first submitt.
 
@@ -30,6 +32,8 @@ Mobile/Tablet Wireframe
 # Table Of CONTENTS
 
 - [ROCK PAPER SCISSORS LIZARD SPOCK GAME JAVASCRIPT MODULE 2.](#rock-paper-scissors-lizard-spock-game-javascript-module-2)
+- [GitHub Repo - https://github.com/sammaxfleet/RockPaperScissorsLizardSpock](#github-repo---https---githubcom-sammaxfleet-rockpaperscissorslizardspock)
+- [Deployed link https://sammaxfleet.github.io/RockPaperScissorsLizardSpock/](#deployed-link-https---sammaxfleetgithubio-rockpaperscissorslizardspock-)
 - [Things worked on since the first submitt.](#things-worked-on-since-the-first-submitt)
 - [Responsive Image](#responsive-image)
 - [HAND WRITTEN WIREFRAMES](#hand-written-wireframes)
