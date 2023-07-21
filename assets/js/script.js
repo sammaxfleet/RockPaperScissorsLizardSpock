@@ -1,6 +1,6 @@
 // function to remove body elements and display the winner
 function resetGame(winner) {
-  document.body.innerHTML = `the ${winner} has won.<br><button class="return_btn"><a href="/">Back to Game</a></button>`;
+  document.body.innerHTML = `the ${winner} has won.<br><button class="return_btn"><a href="https://sammaxfleet.github.io/RockPaperScissorsLizardSpock/">Back to Game</a></button>`;
 }
 // Function to play the game
 function playGame(userChoice) {
