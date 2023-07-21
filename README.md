@@ -1,6 +1,8 @@
 # ROCK PAPER SCISSORS LIZARD SPOCK GAME JAVASCRIPT MODULE 2.
 
-# GitHub Link - https://sammaxfleet.github.io/RockPaperScissorsLizardSpock/
+# GitHub Repo - https://github.com/sammaxfleet/RockPaperScissorsLizardSpock
+
+# Deployed link https://sammaxfleet.github.io/RockPaperScissorsLizardSpock/
 
 # Things worked on since the first submitt.
 
