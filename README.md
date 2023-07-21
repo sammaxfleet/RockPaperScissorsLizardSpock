@@ -145,15 +145,17 @@ Computer- signifies the computer score for the user
 
 # Testing
 
-Html - 
+Html - I have fully checked the HTML using the W3C validator, it is complete with no errors.
+<img width="889" alt="Screenshot 2023-07-21 at 10 29 57" src="https://github.com/sammaxfleet/RockPaperScissorsLizardSpock/assets/114914739/090571f7-63b0-4129-81ea-f895c41ddaf8">
 
-https://ui.dev/amiresponsive
+CSS - I have fully checked the CSS using the W3C validator, it is complete with no errors.
+<img width="1400" alt="Screenshot 2023-07-21 at 10 31 14" src="https://github.com/sammaxfleet/RockPaperScissorsLizardSpock/assets/114914739/87904e00-a88d-40d6-8dfb-59e88f2664dd">
 
 https://jshint.com/
 
 <img width="1240" alt="Screenshot 2023-07-20 at 16 00 49" src="https://github.com/sammaxfleet/RockPaperScissorsLizardSpock/assets/114914739/161f591c-b1cc-4caa-a174-5132975e3ee4">
 
-
+https://ui.dev/amiresponsive
 
 # Deployment 
 
