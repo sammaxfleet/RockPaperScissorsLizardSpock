@@ -29,6 +29,7 @@ function playGame(userChoice) {
     (userChoice === "spock" &&
       (computerChoice === "rock" || computerChoice === "scissors"))
   ) {
+    
     // update results accordingly for user winner conditions
 
     resultText = "You Win!";
