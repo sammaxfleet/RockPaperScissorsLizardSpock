@@ -1,5 +1,6 @@
 # ROCK PAPER SCISSORS LIZARD SPOCK GAME JAVASCRIPT MODULE 2.
 
+GitHub Link- 
 
 # Things worked on since the first submitt.
 
@@ -28,12 +29,14 @@ Mobile/Tablet Wireframe
 
 # Table Of CONTENTS
 
-- [ROCK PAPER SCISSORS LIZARD SPOCK GAME JAVASCRIPT MODDULE 2.](#rock-paper-scissors-lizard-spock-game-javascript-moddule-2)
+- [ROCK PAPER SCISSORS LIZARD SPOCK GAME JAVASCRIPT MODULE 2.](#rock-paper-scissors-lizard-spock-game-javascript-module-2)
 - [Things worked on since the first submitt.](#things-worked-on-since-the-first-submitt)
 - [Responsive Image](#responsive-image)
 - [HAND WRITTEN WIREFRAMES](#hand-written-wireframes)
 - [Table Of CONTENTS](#table-of-contents)
 - [Purpose Of the Game](#purpose-of-the-game)
+- [User Experience Design](#user-experience-design)
+- [Colors Used.](#colors-used)
 - [Background Color](#background-color)
 - [Logic Image](#logic-image)
 - [The Logic](#the-logic)
@@ -41,11 +44,10 @@ Mobile/Tablet Wireframe
   * [H2](#h2)
 - [The Buttons](#the-buttons)
 - [COMPUTER SCORE VS USER SCORE](#computer-score-vs-user-score)
-- [Javascript Logic -](#javascript-logic--)
+- [BackButton](#backbutton)
 - [Testing](#testing)
 - [Deployment](#deployment)
 - [Credits](#credits)
-
 
 
 # Purpose Of the Game
